@@ -283,3 +283,31 @@ yarn-error.log*
 *.db
 *.sqlite3
 
+# Virtual Environment
+venv/
+env/
+
+# Dataset - too large for github
+data/
+
+# Model weights - too large
+checkpoints/
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
