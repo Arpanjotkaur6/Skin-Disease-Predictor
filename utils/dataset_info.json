@@ -1,0 +1,35 @@
+{
+    "num_classes": 20,
+    "class_names": [
+        "cat_flea_allergy",
+        "cat_healthy",
+        "cat_ringworm",
+        "cat_scabies",
+        "dog_demodicosis",
+        "dog_dermatitis",
+        "dog_fungal_infections",
+        "dog_healthy",
+        "dog_hypersensitivity",
+        "dog_ringworm",
+        "human_atopic_dermatitis",
+        "human_basal_cell_carcinoma",
+        "human_benign_keratosis",
+        "human_eczema",
+        "human_melanocytic_nevi",
+        "human_melanoma",
+        "human_psoriasis",
+        "human_seborrheic_keratoses",
+        "human_tinea_ringworm",
+        "human_warts_molluscum"
+    ],
+    "dataset_sizes": {
+        "train": 20302,
+        "val": 4349,
+        "test": 4362
+    },
+    "batch_size": 32,
+    "image_size": [
+        224,
+        224
+    ]
+}
